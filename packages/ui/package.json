@@ -1,0 +1,19 @@
+{
+  "name": "@awesomecards/ui",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "build": "tsup src/index.ts --format esm,cjs --dts --external react",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/react": "^18.2.0",
+    "@types/react-dom": "^18.2.0"
+  },
+  "dependencies": {
+    "react": "^18.2.0"
+  }
+}
