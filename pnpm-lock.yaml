@@ -13,6 +13,9 @@ importers:
 
   examples/remixapp:
     dependencies:
+      '@awesomecards/products':
+        specifier: workspace:*
+        version: link:../../packages/product-list
       '@awesomecards/ui':
         specifier: workspace:*
         version: link:../../packages/ui
@@ -59,6 +62,22 @@ importers:
       typescript:
         specifier: ^5.0.4
         version: 5.0.4
+
+  packages/product-list:
+    dependencies:
+      '@awesomecards/ui':
+        specifier: workspace:*
+        version: link:../ui
+      react:
+        specifier: ^18.2.0
+        version: 18.2.0
+    devDependencies:
+      '@types/react':
+        specifier: ^18.2.0
+        version: 18.2.0
+      '@types/react-dom':
+        specifier: ^18.2.0
+        version: 18.2.0
 
   packages/ui:
     dependencies:

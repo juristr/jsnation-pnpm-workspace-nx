@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "@awesomecards/ui": "workspace:*",
+    "@awesomecards/products": "workspace:*",
     "@remix-run/css-bundle": "^1.16.1",
     "@remix-run/node": "^1.16.1",
     "@remix-run/react": "^1.16.1",

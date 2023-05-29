@@ -1,8 +1,10 @@
 export const SimpleCard = ({
+  url,
   title,
   text,
 }: {
-  title?: string;
+  url: string;
+  title: string;
   text: string;
 }) => {
   const cardStyles = {
@@ -14,7 +16,7 @@ export const SimpleCard = ({
     boxShadow: '0 1px 2px 0 rgba(0, 0, 0, 0.05)',
     transition: 'background-color 0.3s ease',
     textDecoration: 'none',
-    display: 'block',
+    display: 'inline-block',
     margin: '1rem 0',
     '&:hover': {
       backgroundColor: '#f7fafc',
@@ -36,7 +38,7 @@ export const SimpleCard = ({
   };
 
   return (
-    <a href="#" style={cardStyles}>
+    <a href={url} style={cardStyles}>
       {title && <h5 style={titleStyles}>{title}</h5>}
       <p style={textStyles}>{text}</p>
     </a>
