@@ -1,4 +1,3 @@
-import Image from 'next/image';
 import { ProductList } from '@awesomecards/products';
 
 export default function Home() {

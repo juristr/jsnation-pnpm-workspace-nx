@@ -11,7 +11,7 @@
   ],
   "scripts": {
     "build": "tsup src/index.ts --format esm,cjs --dts --external react",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Testing ui package\""
   },
   "keywords": [],
   "author": "",
