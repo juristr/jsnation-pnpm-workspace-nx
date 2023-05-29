@@ -2,6 +2,13 @@
   "name": "@awesomecards/ui",
   "version": "1.0.0",
   "description": "",
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "sideEffects": false,
+  "files": [
+    "dist/**"
+  ],
   "scripts": {
     "build": "tsup src/index.ts --format esm,cjs --dts --external react",
     "test": "echo \"Error: no test specified\" && exit 1"
