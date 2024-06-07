@@ -1,25 +1,21 @@
 {
-  "tasksRunnerOptions": {
-    "default": {
-      "runner": "nx/tasks-runners/default",
-      "options": {
-        "cacheableOperations": [
-          "build",
-          "lint",
-          "typecheck",
-          "test"
-        ]
-      }
-    }
-  },
   "targetDefaults": {
     "build": {
       "dependsOn": [
         "^build"
-      ]
+      ],
+      "cache": true
+    },
+    "lint": {
+      "cache": true
+    },
+    "typecheck": {
+      "cache": true
+    },
+    "test": {
+      "cache": true
     }
   },
-  "affected": {
-    "defaultBase": "main"
-  }
+  "useInferencePlugins": false,
+  "defaultBase": "main"
 }

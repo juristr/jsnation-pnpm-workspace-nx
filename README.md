@@ -1,10 +1,8 @@
 # Talk: Package-based Monorepos - Speed Up in Under 7 Minutes
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github.com/juristr/jsnation-pnpm-workspace-nx)
-
 This is the demo repo for the talk I gave at [JSNation 2023](https://jsnation.com/) in Amsterdam. It contains a PNPM workspaces based monorepo setup with 2 packages that depend on each other as well as a Remix and Next.js app that consume them.
 
-- Talk recording: (coming soon)
+- Talk recording: https://youtu.be/wrJMhl3T2-8?si=xGkMSFBwCJV3OBNs
 - Separate video recording: https://youtu.be/PwfR77oe1E8
 
 ## Running it locally

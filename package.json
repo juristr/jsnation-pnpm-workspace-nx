@@ -10,7 +10,7 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "nx": "16.9.1",
+    "nx": "19.2.1",
     "tsup": "^6.7.0",
     "typescript": "5.4.5"
   },
